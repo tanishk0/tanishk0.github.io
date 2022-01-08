@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+.logo{
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact{
+    padding: 5px 15px 5px 15px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+.hom:hover{
+    color: #ffa61d;
+    transition: 0.2s ease-in-out;
+}
+.port:hover{
+    color: #ffa61d;
+    transition: 0.2s ease-in-out;
+}
+.sers:hover{
+    color: #ffa61d;
+    transition: 0.2s ease-in-out;
+}
+.contact:hover{
+    border: 2px solid #ffa61d;
+    transition: 0.2s ease-in-out;
+    color: black;
+}
+/* home section */
+#home{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#home h2{
+    font-size: 28px;
+}
+#home h1{
+    font-size: 40px;
+    color: #ffa61d;
+    margin-top: -18px;
+}
+#home p{
+    font-size: 18px;
+    font-weight: 600;
+    width: 450px;
+    text-align: center;
+    margin-top: 10px;
+}
+.home-cont{
+    text-align: center;
+}
+#services{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(240, 8%, 95%);
+}
+#services img{
+    height: 140px;
+    image-rendering: optimizeQuality;
+}
+#portfolio{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.grid-one{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.pro-1 , .pro-2, .pro-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.pro-1 img , .pro-2 img, .pro-3 img{
+    height: 200px;
+}
+.pro-1 a, .pro-2 a, .pro-3 a{
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
